@@ -13,6 +13,7 @@ import os
 if __name__ == '__main__':
     # Step 1: Generate a video with random pixels
     def generate_random_video(filename, duration, fps, width, height):
+        # TODO: remove this when uploading to YouTube functionality is added and delete the random.mp4 file at the end
         # delete random.mp4 if it exists
         if os.path.exists(filename):
             os.remove(filename)
