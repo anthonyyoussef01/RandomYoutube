@@ -13,6 +13,9 @@ import os
 if __name__ == '__main__':
     # Step 1: Generate a video with random pixels
     def generate_random_video(filename, duration, fps, width, height):
+        # delete random.mp4 if it exists
+        if os.path.exists(filename):
+            os.remove(filename)
         # Create a list to store all frames
         frames = []
 
@@ -36,7 +39,7 @@ if __name__ == '__main__':
 
         # Compile the frames into a video
         clip = mpy.ImageSequenceClip(frames, fps=fps)
-        clip.write_videofile(filename, codec='libx264')
+        clip.write_videofile(filename, codec='libx264', bitrate='5000k', threads=10)
 
         # Delete the frame images
         for frame_filename in frames:
