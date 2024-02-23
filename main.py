@@ -14,10 +14,6 @@ from googleapiclient.http import MediaFileUpload
 
 # Step 1: Generate a video with random pixels
 def generate_random_video(filename, duration, fps, width, height):
-    # TODO: remove this when uploading to YouTube functionality is added and delete the random.mp4 file at the end
-    # delete random.mp4 if it exists
-    if os.path.exists(filename):
-        os.remove(filename)
     # Create a list to store all frames
     frames = []
 
@@ -93,7 +89,12 @@ def upload_video(youtube, file):
     print(f'Uploaded file id: {response["id"]}')
 
 if __name__ == '__main__':
+    filename = 'random.mp4'
     # Generate a random video
-    generate_random_video('random.mp4', 10, 30, 640, 480)
+    generate_random_video(filename, 10, 30, 640, 480)
+    # Authenticate with the YouTube Data API
     youtube = get_authenticated_service()
+    # Upload the video to YouTube
     upload_video(youtube, 'random.mp4')
+    # Delete the video file
+    os.remove(filename)

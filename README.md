@@ -1,5 +1,8 @@
 # RandomYoutube
 
+## Example
+Here is an example of a video that was uploaded when running the program: [Example Video](https://youtu.be/_HFGI9vTsL8)
+
 ## Description
 RandomYoutube is a Python application that uploads videos with random titles and descriptions to YouTube.
 
