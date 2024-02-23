@@ -15,3 +15,8 @@ https://stackoverflow.com/questions/39139165/running-simple-python-script-contin
 1. Obtain your client secrets file from the Google API Console and save it in the project directory.
 2. Run the script: `python main.py`
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
