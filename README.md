@@ -19,7 +19,7 @@ https://stackoverflow.com/questions/39139165/running-simple-python-script-contin
 2. Run the script: `python main.py`
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
