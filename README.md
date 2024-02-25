@@ -1,4 +1,7 @@
 # RandomYoutube
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![YouTube Data API](https://img.shields.io/badge/YouTube%20Data%20API-v3-%23FF0000.svg?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-%23ED8B00.svg?style=for-the-badge)
 
 ## Example
 Here is an example of a video that was uploaded when running the program: [Example Video](https://youtu.be/_HFGI9vTsL8)
