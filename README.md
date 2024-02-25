@@ -1,3 +1,5 @@
+<img src="ReadMe/Banner.png" alt="Banner" width="100%">
+
 # RandomYoutube
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![YouTube Data API](https://img.shields.io/badge/YouTube%20Data%20API-v3-%23FF0000.svg?style=for-the-badge)
